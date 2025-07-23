@@ -19,6 +19,11 @@ h2 {
     font-family: 'DM Serif Display', serif;
     color: #184f63; /* dark-blue */
 }
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+/* .sharp-corners * means all elements inside the sharp-corners class will have no border radius */
 
 /* Hero Section */
 
